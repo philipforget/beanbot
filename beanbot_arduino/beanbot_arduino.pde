@@ -1,6 +1,8 @@
 #include <lm75a.h>
 #include <Wire.h>
 
+#include <PID>
+
 // The address, in hex, of the l75a. The address schema for the lm75a is
 // 1 0 0 1 <a0> <a1> <a2>
 // where a0-2 are 1 or 0 if tied to Vcc or ground, respectively
