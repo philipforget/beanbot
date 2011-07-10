@@ -7,6 +7,8 @@
 #include <inttypes.h>
 
 
+int instance_address;
+
 LM75A::LM75A(int device_address) {
     instance_address = device_address;
 }
