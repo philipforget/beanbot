@@ -1,6 +1,7 @@
 BeanBot
 
 Arduino controlled Mokita Super Inox
+
 ![Mokita Super Inox](https://github.com/philipforget/BeanBot/raw/master/Pictures/mokita.jpg)
 
 
