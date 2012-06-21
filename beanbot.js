@@ -19,6 +19,7 @@ var fs = require('fs'),
     boardAddress = '/dev/ttyUSB0',
     boilerPin = 3,
     pumpPin = 2,
+    tp,
     board = new Board(boardAddress, function(){
         log("Got board at " + boardAddress);
 
@@ -29,7 +30,7 @@ var fs = require('fs'),
             }, delay);
         };
 
-        // Toggle boiler
+        // Toggle pump
         var tp = (function(){
             var state = 0;
             return function(){
@@ -63,6 +64,6 @@ var fs = require('fs'),
                         }
                     });
 
-                repl.start("Beanbot ahoy!>");
+                repl.start("Beanbot ahoy!>", undefined, undefined, true);
             });
     });
