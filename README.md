@@ -1,10 +1,7 @@
-BeanBot
+# BeanBot
 
 Arduino controlled Mokita Super Inox
 
 ![Mokita Super Inox](https://github.com/philipforget/BeanBot/raw/master/Pictures/mokita.jpg)
 
-
-The plan right now is to use firmata and control the machine via a web
-interface running on an attached PC. Perhaps a raspberry PI if I can get my
-hands on one. For now an old Dell laptop will do.
+Back from a long nap... Lets try this again.
